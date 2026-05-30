@@ -1,2 +1,1 @@
-# Module-JavaScript
-Aqui se encuentran las 4 HU
+multiples HU, nada que hacer.
