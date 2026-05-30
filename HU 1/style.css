@@ -1,0 +1,67 @@
+:root {
+    --primary-color: #4f46e5;
+    --error-color: #ef4444;
+    --bg-color: #f3f4f6;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+.modal-overlay {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.modal {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 320px;
+}
+.input-group {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+label { display: block; margin-bottom: 0.5rem; font-weight: bold; }
+input {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+}
+button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+}
+.hidden { display: none !important; }
+#errorText { 
+    color: var(--error-color); 
+    font-size: 0.875rem; 
+    margin-top: 0.5rem; 
+    min-height: 1.2rem; 
+}

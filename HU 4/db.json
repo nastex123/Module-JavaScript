@@ -1,0 +1,14 @@
+{
+  "users": [],
+  "products": [
+    {
+      "title": "dada",
+      "description": "sadas",
+      "price": 22,
+      "stock": 222,
+      "category": "lo",
+      "id": "nBn2zTaP320"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
